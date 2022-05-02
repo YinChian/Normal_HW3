@@ -1,0 +1,126 @@
+Magic 271485
+Revision 5.4v9
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 908 22 960 813 162 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "D:\work\NTUST\verilog\DW8051_ALL\DW8051\tb_8051.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 3
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 1002466900.702074 1029671106.000000
+cursor 1027638610.000000
+marker 707794022.000000
+
+; user define markers
+; userMarker time_pos marker_name
+; visible top row signal index
+top 32
+; marker line index
+markerPos 52
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByValue
+
+
+addGroup "G1"
+activeDirFile "" "D:\work\NTUST\verilog\DW8051_ALL\DW8051\tb_8051.fsdb"
+addSignal -h 15 /tb_8051/clk
+addSignal -h 15 -holdScope por_n
+addSignal -h 15 -holdScope rst_in_n
+addSignal -h 15 -holdScope rst_out_n
+addSignal -h 15 -holdScope test_mode_n
+addSignal -h 15 -holdScope stop_mode_n
+addSignal -h 15 -holdScope idle_mode_n
+addSignal -h 15 -UNSIGNED -HEX -holdScope sfr_addr[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope sfr_data_out[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope sfr_data_in[7:0]
+addSignal -h 15 -holdScope sfr_wr
+addSignal -h 15 -holdScope sfr_rd
+addSignal -h 15 -UNSIGNED -HEX -holdScope mem_addr[15:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mem_data_out[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope mem_data_in[7:0]
+addSignal -h 15 -holdScope mem_wr_n
+addSignal -h 15 -holdScope mem_rd_n
+addSignal -h 15 -holdScope mem_pswr_n
+addSignal -h 15 -holdScope mem_psrd_n
+addSignal -h 15 -holdScope mem_ale
+addSignal -h 15 -holdScope mem_ea_n
+addSignal -h 15 -holdScope int0_n
+addSignal -h 15 -holdScope int1_n
+addSignal -h 15 -holdScope int2
+addSignal -h 15 -holdScope int3_n
+addSignal -h 15 -holdScope int4
+addSignal -h 15 -holdScope int5_n
+addSignal -h 15 -holdScope pfi
+addSignal -h 15 -holdScope wdti
+addSignal -h 15 -holdScope rxd0_in
+addSignal -h 15 -holdScope rxd0_out
+addSignal -h 15 -holdScope txd0
+addSignal -h 15 -holdScope rxd1_in
+addSignal -h 15 -holdScope rxd1_out
+addSignal -h 15 -holdScope txd1
+addSignal -h 15 -holdScope t0
+addSignal -h 15 -holdScope t1
+addSignal -h 15 -holdScope t2
+addSignal -h 15 -holdScope t2ex
+addSignal -h 15 -holdScope t0_out
+addSignal -h 15 -holdScope t1_out
+addSignal -h 15 -holdScope t2_out
+addSignal -h 15 -holdScope port_pin_reg_n
+addSignal -h 15 -holdScope p0_mem_reg_n
+addSignal -h 15 -holdScope p0_addr_data_n
+addSignal -h 15 -holdScope p2_mem_reg_n
+addSignal -h 15 -UNSIGNED -HEX -holdScope iram_addr[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope iram_data_out[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope iram_data_in[7:0]
+addSignal -h 15 -holdScope iram_we1_n
+addSignal -h 15 -holdScope iram_we2_n
+addSignal -h 15 -UNSIGNED -HEX -holdScope irom_addr[15:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope irom_data_out[7:0]
+addSignal -h 15 -holdScope irom_rd_n
+addSignal -h 15 -holdScope irom_cs_n
+addSignal -h 15 -UNSIGNED -HEX -holdScope P0[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope P1[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope P2[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope P3[7:0]
+addGroup "G2"
+addSignal -h 15 /tb_8051/clk
+addSignal -h 15 -UNSIGNED -HEX -holdScope sfr_addr[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope sfr_data_in[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope sfr_data_out[7:0]
+addSignal -h 15 -holdScope sfr_wr
+addSignal -h 15 -holdScope sfr_rd
+addGroup "G3"
+
+; grid status
+; gridSignal signal_name
+; gridEdge 0 | 1
+; gridCount
+; gridCycleTime from to cycleTime
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

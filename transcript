@@ -1,0 +1,59 @@
+vsim work.tb_8051
+# vsim work.tb_8051 
+# Start time: 02:40:04 on May 03,2022
+# Loading work.tb_8051
+# Loading work.DW8051_core
+# Loading work.DW8051_cpu
+# Loading work.DW8051_biu
+# Loading work.DW8051_updn_ctr
+# Loading work.DW8051_alu
+# Loading work.DW8051_u_ctr_clr
+# Loading work.DW8051_op_decoder
+# Loading work.DW8051_main_regs
+# Loading work.DW8051_control
+# Loading work.DW8051_timer
+# Loading work.DW8051_timer_ctr
+# Loading work.DW8051_intr_0
+# Loading work.DW8051_intr_1
+# Loading work.DW8051_timer2
+# Loading work.DW8051_serial
+# Loading work.DW8051_shftreg
+# Loading work.int_mem
+# Loading work.rom_mem
+# Loading work.AM2302_master
+# Loading work.edge_detect
+# Loading work.AM2302
+add wave -position end  sim:/tb_8051/sfr_addr
+add wave -position end  sim:/tb_8051/sfr_data_out
+add wave -position end  sim:/tb_8051/sfr_data_in
+add wave -position 0  sim:/tb_8051/clk
+add wave -position 1  sim:/tb_8051/irom_addr
+add wave -position end  sim:/tb_8051/am2302_sda
+add wave -position end  sim:/tb_8051/u8/data
+run -all
+# time=1626797,sensor send 0x1234567814
+# time=5328708,sfr_rd=1,sfr_addr=0xe2,sfr_data_in=0x12 
+# time=5328924,sfr_rd=1,sfr_addr=0xe3,sfr_data_in=0x34 
+# time=5329141,sfr_rd=1,sfr_addr=0xe4,sfr_data_in=0x56 
+# time=5329358,sfr_rd=1,sfr_addr=0xe5,sfr_data_in=0x78 
+# time=5329574,sfr_rd=1,sfr_addr=0xe6,sfr_data_in=0x14 
+# sensor send end
+# time=8510208,sensor send 0x1234567814
+# time=12475986,sfr_rd=1,sfr_addr=0xe2,sfr_data_in=0x9a 
+# time=12476203,sfr_rd=1,sfr_addr=0xe3,sfr_data_in=0xbc 
+# time=12476419,sfr_rd=1,sfr_addr=0xe4,sfr_data_in=0xde 
+# time=12476636,sfr_rd=1,sfr_addr=0xe5,sfr_data_in=0xf0 
+# time=12476853,sfr_rd=1,sfr_addr=0xe6,sfr_data_in=0x24 
+# sensor send end
+# time=15657487,sensor send 0x9abcdef024
+# time=19359397,sfr_rd=1,sfr_addr=0xe2,sfr_data_in=0x12 
+# time=19359614,sfr_rd=1,sfr_addr=0xe3,sfr_data_in=0x34 
+# time=19359831,sfr_rd=1,sfr_addr=0xe4,sfr_data_in=0x56 
+# time=19360047,sfr_rd=1,sfr_addr=0xe5,sfr_data_in=0x78 
+# time=19360264,sfr_rd=1,sfr_addr=0xe6,sfr_data_in=0x14 
+# sensor send end
+# ** Note: $stop    : D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/tb_8051.v(89)
+#    Time: 21996816500 ps  Iteration: 0  Instance: /tb_8051
+# Break in Module tb_8051 at D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/tb_8051.v line 89
+# End time: 02:49:37 on May 03,2022, Elapsed time: 0:09:33
+# Errors: 0, Warnings: 1

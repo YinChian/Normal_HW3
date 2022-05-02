@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at DW8051_control.v(495): always construct contains both blocking and non-blocking assignments File: D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_control.v Line: 495
+Warning (10268): Verilog HDL information at DW01_addsub.v(56): always construct contains both blocking and non-blocking assignments File: D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW01_addsub.v Line: 56

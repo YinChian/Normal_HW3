@@ -1,0 +1,200 @@
+{D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_main_regs.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_main_regs.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DW8051_main_regs
+
+Top level modules:
+	DW8051_main_regs
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_intr_1.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_intr_1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DW8051_intr_1
+
+Top level modules:
+	DW8051_intr_1
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW01_cmp2.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW01_cmp2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DW01_cmp2
+
+Top level modules:
+	DW01_cmp2
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/AM2302.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/AM2302.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module AM2302
+
+Top level modules:
+	AM2302
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_updn_ctr.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_updn_ctr.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DW8051_updn_ctr
+
+Top level modules:
+	DW8051_updn_ctr
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/AM2302_master.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/AM2302_master.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module AM2302_master
+
+Top level modules:
+	AM2302_master
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_serial.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_serial.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DW8051_serial
+
+Top level modules:
+	DW8051_serial
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_cpu.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_cpu.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DW8051_cpu
+
+Top level modules:
+	DW8051_cpu
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_biu.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_biu.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DW8051_biu
+
+Top level modules:
+	DW8051_biu
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/int_mem.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/int_mem.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module int_mem
+
+Top level modules:
+	int_mem
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_core.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_core.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DW8051_core
+
+Top level modules:
+	DW8051_core
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_shftreg.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_shftreg.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DW8051_shftreg
+
+Top level modules:
+	DW8051_shftreg
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/tb_8051.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/tb_8051.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_8051
+
+Top level modules:
+	tb_8051
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_u_ctr_clr.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_u_ctr_clr.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DW8051_u_ctr_clr
+
+Top level modules:
+	DW8051_u_ctr_clr
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW01_sub.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW01_sub.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DW01_sub
+
+Top level modules:
+	DW01_sub
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/edge_detect.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/edge_detect.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module edge_detect
+
+Top level modules:
+	edge_detect
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW02_mult.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW02_mult.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DW02_mult
+
+Top level modules:
+	DW02_mult
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW01_addsub.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW01_addsub.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DW01_addsub
+
+Top level modules:
+	DW01_addsub
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/ext_mem.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/ext_mem.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ext_mem
+
+Top level modules:
+	ext_mem
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051/DW8051_parameter.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051/DW8051_parameter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_timer_ctr.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_timer_ctr.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DW8051_timer_ctr
+
+Top level modules:
+	DW8051_timer_ctr
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_timer.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_timer.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DW8051_timer
+
+Top level modules:
+	DW8051_timer
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_control.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_control.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DW8051_control
+
+Top level modules:
+	DW8051_control
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_alu.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_alu.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DW8051_alu
+
+Top level modules:
+	DW8051_alu
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_timer2.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_timer2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DW8051_timer2
+
+Top level modules:
+	DW8051_timer2
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/rom_mem.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/rom_mem.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rom_mem
+
+Top level modules:
+	rom_mem
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_op_decoder.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_op_decoder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DW8051_op_decoder
+
+Top level modules:
+	DW8051_op_decoder
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_intr_0.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW8051_intr_0.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DW8051_intr_0
+
+Top level modules:
+	DW8051_intr_0
+
+} {} {}} {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW01_add.v} {1 {vlog -work work -stats=none {D:/Digital_Logic_Design/Normal/Homework 3/Normal_HW3/DW8051/DW01_add.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DW01_add
+
+Top level modules:
+	DW01_add
+
+} {} {}}
