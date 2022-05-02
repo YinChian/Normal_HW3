@@ -1,0 +1,62 @@
+A51 MACRO ASSEMBLER  AM2302                                                               04/30/2022 15:09:37 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.02b
+OBJECT MODULE PLACED IN am2302.OBJ
+ASSEMBLER INVOKED BY: C:\Keil_v4\C51\BIN\A51.EXE am2302.a51 SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1           ORG   0   
+                       2       
+0000 78FA              3           MOV   R0,#250
+0002 D8FE              4           DJNZ  R0,$  
+                       5       
+0004 7803              6           MOV  R0,#3
+0006                   7     SEND_START:     
+0006 75E101            8           MOV  0E1H,#01H
+                       9       
+0009                  10     WAIT_LOOP: 
+0009 E5E1             11           MOV  A,0E1H    
+000B 5410             12           ANL  A,#10H         
+000D 60FA             13           JZ   WAIT_LOOP
+                      14       
+                      15       
+000F 75E100           16           MOV  0E1H,#00  
+                      17       
+                      18         
+0012 E5E2             19           MOV  A,0E2H 
+0014 E5E3             20           MOV  A,0E3H
+0016 E5E4             21           MOV  A,0E4H
+0018 E5E5             22           MOV  A,0E5H
+001A E5E6             23           MOV  A,0E6H
+                      24       
+                      25       
+001C 7A14             26           MOV   R2,#20
+001E                  27     DELAY_LOOP:       
+001E 79FA             28           MOV   R1,#250
+0020 D9FE             29           DJNZ  R1,$      
+0022 DAFA             30           DJNZ  R2,DELAY_LOOP
+                      31           
+0024 D8E0             32           DJNZ R0,SEND_START
+                      33       
+0026 020B16           34           JMP  0B16H
+                      35       
+                      36           END
+A51 MACRO ASSEMBLER  AM2302                                                               04/30/2022 15:09:37 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+DELAY_LOOP . . . .  C ADDR   001EH   A   
+SEND_START . . . .  C ADDR   0006H   A   
+WAIT_LOOP. . . . .  C ADDR   0009H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)
